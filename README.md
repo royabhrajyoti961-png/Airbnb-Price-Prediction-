@@ -21,20 +21,19 @@ To harness the power of data science and machine learning to provide more accura
 
 This guide provides step-by-step instructions on how to install and set up the Airbnb Price Prediction project. You can choose to install it either directly from GitHub or using a Docker container from DockerHub.
 
-## Prerequisites
+### 📋 Prerequisites
+Before you begin, ensure you have the core packages installed or available in your environment[cite: 6]:
 
-Before you begin, make sure you have the following prerequisites installed on your system:
-
- - Numpy
- - Pandas
- - Seaborn
- - Matplotlib
- - Scikit-learn
- - xgboost
- - Flask
- - Pillow
- - Catboost
- - DVC
+* ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white) **NumPy** — High-performance vector and matrix operations[cite: 6].
+* ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) **Pandas** — Data structures and structural analysis workflows[cite: 6].
+* ![Seaborn](https://img.shields.io/badge/Seaborn-4C9173?style=flat&logo=python&logoColor=white) **Seaborn** — Statistical data visualization plots[cite: 6].
+* ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat&logo=python&logoColor=white) **Matplotlib** — Static, animated, and interactive visualizations.
+* ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat&logo=scikit-learn&logoColor=white) **Scikit-learn** — Data mining and machine learning modeling[cite: 6].
+* ![XGBoost](https://img.shields.io/badge/XGBoost-2C8E47?style=flat&logo=python&logoColor=white) **XGBoost** — Optimized distributed gradient boosting library[cite: 6].
+* ![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white) **Flask** — Lightweight WSGI web application framework[cite: 6].
+* ![Pillow](https://img.shields.io/badge/Pillow-11557C?style=flat&logo=python&logoColor=white) **Pillow** — Friendly Python Imaging Library wrapper[cite: 6].
+* ![CatBoost](https://img.shields.io/badge/CatBoost-F3D110?style=flat&logo=yandex&logoColor=black) **CatBoost** — Gradient boosting on decision trees with categorical features support[cite: 6].
+* ![DVC](https://img.shields.io/badge/DVC-134B5F?style=flat&logo=data-version-control&logoColor=white) **DVC** — Data Version Control for machine learning projects[cite: 6].
 
 ## Installation Steps
 
