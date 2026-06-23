@@ -35,6 +35,55 @@ Before you begin, ensure you have the core packages installed or available in yo
 * ![CatBoost](https://img.shields.io/badge/CatBoost-F3D110?style=flat&logo=yandex&logoColor=black) **CatBoost** — Gradient boosting on decision trees with categorical features support[cite: 6].
 * ![DVC](https://img.shields.io/badge/DVC-134B5F?style=flat&logo=data-version-control&logoColor=white) **DVC** — Data Version Control for machine learning projects[cite: 6].
 
+
+
+## 🗂️ Project Structure
+
+The repository follows a clean, modular production layout designed for enterprise MLOps tracking and multi-interface deployment:
+
+```text
+├── .github/
+│   └── workflows/                # GitHub Actions automated CI/CD pipelines
+│
+├── Notebook_Experiments/        # Jupyter Notebooks for EDA & baseline modeling
+│
+├── src/                          # Monolithic source repository core
+│   └── Airbnb/
+│       ├── components/           # Core modules (Ingestion, Transformation, Model Training)
+│       │   ├── __init__.py
+│       │   ├── Data_ingestion.py
+│       │   ├── Data_transformation.py
+│       │   └── Model_trainer.py
+│       │
+│       ├── pipelines/            # Pipeline orchestration architectures
+│       │   ├── __init__.py
+│       │   ├── Training_pipeline.py
+│       │   └── Prediction_Pipeline.py
+│       │
+│       ├── utils/                # Shared utilities and operations helpers
+│       │   ├── __init__.py
+│       │   └── utils.py
+│       │
+│       ├── exception.py          # Custom core exception tracking overrides
+│       ├── logger.py             # System runtime log execution engines
+│       └── __init__.py
+│
+├── static/                       # Static UI assets (CSS stylesheets, images)
+│   └── style.css
+│
+├── templates/                    # Server-side HTML layout forms
+│   └── index.html
+│
+├── .gitignore                    # Version control asset untracked criteria
+├── app.py                        # Production Flask WSGI micro-framework server
+├── Dockerfile                    # Containerization infrastructure deployment manifest
+├── LICENSE                       # Repository legal usage policy tracking
+├── README.md                     # Technical system documentation terminal
+├── requirements.txt              # Core workspace environment dependency list
+├── setup.py                      # Local module distribution configuration package
+└── streamlit_app.py              # Interactive Streamlit analytics dashboard UI
+
+
 ## Installation Steps
 
 ### Option 1: Installation from GitHub
