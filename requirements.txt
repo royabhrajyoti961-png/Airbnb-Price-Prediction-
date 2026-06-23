@@ -1,3 +1,4 @@
+streamlit
 numpy
 pandas
 scikit-learn
@@ -5,7 +6,6 @@ flask
 pillow
 catboost
 dvc
-catboost
 xgboost
 seaborn
 -e .
