@@ -11,14 +11,19 @@
 ---
 
 ## 📖 Project Overview
-The purpose of this project is to accurately predict the nightly price of Airbnb rentals based on structural features, geographical metrics, and host profiles[cite: 5]. This repository implements an end-to-end Machine Learning pipeline utilizing state-of-the-art gradient boosting algorithms[cite: 5, 6].
+The purpose of this project is to predict the price of Airbnb rentals based on various features of the properties listed on the platform[cite: 5]. The code in this repository is written in Python and uses several machine learning algorithms to train and test a predictive model[cite: 5]. This repository implements an end-to-end Machine Learning pipeline utilizing state-of-the-art gradient boosting algorithms[cite: 5, 6].
+
+### 🌟 Motivation 
+In today's fast-paced world, platforms like Airbnb have empowered property owners and travelers alike by offering a diverse range of lodging options. However, setting the right price remains an intricate challenge. Hosts aspire to optimize their earnings while ensuring competitive pricing, while guests seek value for money. 
+
+This project aims to leverage data science and machine learning to provide accurate, data-driven pricing strategies. By factoring in myriad variables such as location, property type, and market dynamics, this model helps hosts maximize income and guests find fair deals.
 
 ### 🛠️ Tech Stack & Libraries
-*   **Core:** Python[cite: 3, 5]
-*   **Data Manipulation:** Pandas, NumPy[cite: 6]
-*   **Machine Learning:** Scikit-Learn, CatBoost, XGBoost[cite: 6]
-*   **Data Pipeline:** DVC (Data Version Control)[cite: 6]
-*   **Visualization:** Seaborn, Pillow[cite: 6]
+* **Core:** Python[cite: 3, 5]
+* **Data Manipulation:** Pandas, NumPy
+* **Machine Learning:** Scikit-Learn, CatBoost, XGBoost
+* **Data Pipeline:** DVC (Data Version Control)
+* **Visualization:** Seaborn, Pillow
 
 ---
 
@@ -34,13 +39,13 @@ The repository follows a clean, modular production layout[cite: 8]:
 ├── Notebook_Experiments/ # Jupyter Exploratory Data Analysis & Modeling
 ├── templates/ & static/  # Flask Frontend Layouts
 ├── app.py                # Flask Deployment Engine
-└── streamlit_app.py      # Streamlit Deployment Engine
-
+└── streamlit_app.py      # Streamlit Deployment UI
 
 The purpose of this project is to predict the price of Airbnb rentals based on various features of the properties listed on the platform. The code in this repository is written in Python and uses several machine learning algorithms to train and test a predictive model.
 
 
 ## Introduction
+
 In today's fast-paced world, the way we travel and seek accommodations has undergone a remarkable transformation, thanks to platforms like Airbnb. This dynamic marketplace has empowered property owners and travellers, offering a diverse range of lodging options. However, one enduring challenge is setting the right price for a listing. Hosts aspire to optimize their earnings while ensuring competitive pricing, while guests seek value for their money. Balancing these interests can be intricate, and that's where the motivation for Airbnb price prediction comes in.
 
 ## Motivation 
